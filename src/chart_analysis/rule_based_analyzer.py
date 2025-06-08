@@ -535,7 +535,7 @@ class BreakoutAnalyzer:
                 ma_alignment=0.0,
                 range_tightness=0.0,
                 last_price=df['Close'].iloc[-1] if not df.empty else 0.0,
-                resistance_level=df['High'].max() if not df empty else 0.0,
+                resistance_level=df['High'].max() if not df.empty else 0.0,
                 notes=[f"Error analyzing setup: {str(e)}", f"Details: {error_details[:500]}"]
             )
     

@@ -1,5 +1,5 @@
 *.pdf
-llama.cpp/
 chartEnv/
 install_cuda_support.bat
 data/
+llama.cpp/
